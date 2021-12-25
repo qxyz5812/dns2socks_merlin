@@ -32,5 +32,4 @@ RUN dpkg --add-architecture i386 \
     && echo "Asia/Shanghai" > /etc/timezone \
     && git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh \
     && cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc \
-    && chsh -s /bin/zsh \
-
+    && chsh -s /bin/zsh
